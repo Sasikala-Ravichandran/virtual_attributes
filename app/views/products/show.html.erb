@@ -7,7 +7,7 @@
 
 <p>
   <strong>Price:</strong>
-  <%= "$#{@product.price}" %>
+  <%= "$#{(@product.price).round(2)}" %>
 </p>
 
 <p> <strong>Categories</strong>
