@@ -1,8 +1,5 @@
 <p id="notice"><%= notice %></p>
-
-
 <h1>1Listing Products</h1>
-
 <table>
   <thead>
     <tr>
@@ -11,7 +8,6 @@
       <th colspan="3"></th>
     </tr>
   </thead>
-
   <tbody>
     <% @products.each do |product| %>
       <tr>
@@ -24,7 +20,5 @@
     <% end %>
   </tbody>
 </table>
-
 <br>
-
 <%= link_to 'New Product', new_product_path %>
